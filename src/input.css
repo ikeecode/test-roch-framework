@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+
+.landing {
+    @apply w-screen h-screen bg-black text-white p-2;
+}
+@tailwind utilities;

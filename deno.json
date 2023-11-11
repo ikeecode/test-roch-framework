@@ -1,0 +1,7 @@
+{
+    "tasks": {
+        "start" : "deno run -A --watch=./src/ https://deno.land/x/sauveur@0.4.3/src/mod.js --web",
+        "dev" : "export ENV=dev && export LOCAL=./src && deno run  -A --watch=./src/  ../std/src/mod.js --web"
+    },
+    "lock": false
+}
